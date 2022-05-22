@@ -6,7 +6,7 @@ function bestSprintSequence(sprints) {
     let sumList;
 
     if (sprints.length < 3) {
-        console.log("Error!");
+        alert("Error!");
     } else {
         for (let i = 0; i < sprints.length; i++) {
             sequence = sprints.slice(i, i + 3);
@@ -26,7 +26,7 @@ function bestSprintSequence(sprints) {
             }
         }
         let bestIndex = indexList[indexList.length - 1];
-        console.log("sequence: ", sequencesList[bestIndex], "sum: ", sumList[bestIndex]);
+        alert("sequence: " + sequencesList[bestIndex] + "\nsum: " + sumList[bestIndex]);
     }
 }
 let sprints = [];
