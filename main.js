@@ -27,6 +27,7 @@ function bestSprintSequence(sprints) {
         }
         let bestIndex = indexList[indexList.length - 1];
         alert("sequence: " + sequencesList[bestIndex] + "\nsum: " + sumList[bestIndex]);
+        console.log("sequence: ", sequencesList[bestIndex], "sum: ", sumList[bestIndex]);
     }
 }
 let sprints = [];
